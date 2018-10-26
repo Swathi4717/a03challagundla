@@ -1,0 +1,27 @@
+<% include header %>
+<link rel="stylesheet" type="text/css" href="/Contact.css">
+
+<h2>Contact</h2>
+
+<div class="container">
+    <form action="/contact">
+        <label for="greeting">Hello:)</label>
+        <input type="text" id="greeting" placeholder="Hello!"><br><br>
+        <label for="fname">First Name*</label>
+    <input type="text" id="fname" name="firstname" placeholder="Type your first name here.."><br><br>
+
+    <label for="lname">Last Name*</label>
+    <input type="text" id="lname" name="lastname" placeholder="Type your last name here.."><br><br>
+    <label for="mailID">Email*</label>
+    <input type="text" id="mailID" placeholder="example@gmail.com"><br><br>
+
+        <label for="subject">If you have any questions, you can ask here</label><br><br>
+        <textarea id="subject" name="questions" placeholder="Ask something.."></textarea><br>
+        <input type="submit" value="Submit">
+        <p id=one><a href="https://github.com/Swathi4717">GitHub </a></p>
+        <p id=two><a href="https://bitbucket.org/Swathi4717/">BitBucket</a></p>
+        <p id=three><a href="https://www.linkedin.com/in/challagundla-swathi-1ab50816b/">LinkedIn</a></p>
+    </form>
+</div>
+</body>
+<% include footer %>

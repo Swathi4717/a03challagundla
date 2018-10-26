@@ -1,0 +1,19 @@
+{
+    "name": "a03",
+    "version": "0.0.1",
+    "description": "resume app",
+    "main": "app.js",
+    "dependencies": {
+        "express": "latest",
+        "morgan": "latest",
+        "body-parser": "latest",
+        "ejs": "latest"
+    },
+    "author": "Swathi Challagundla",
+    "homepage": "https://bitbucket.org/Swathi4717/a03challagundla",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/Swathi4717/a03challagundla"
+    },
+    "license": "Apache-2.0"
+}
